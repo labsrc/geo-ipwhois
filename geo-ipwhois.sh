@@ -4,7 +4,7 @@
 ### Script:		geo-ipwhois.sh
 ### Version:	1.00
 ### Date:		2026-09-06
-### Function:	Uses https://ipwhois.is to provide GeoIP lookups (1000/day Free)
+### Function:	Uses https://ipwho.is to provide GeoIP lookups (1000/day Free)
 ##################################################################################
 
 ### If no IP given, will lookup external IP
@@ -34,7 +34,7 @@ bullet='\xE2\x80\xA2'
 function usage_display {
 	echo -e "\n${gdcolorbold}geo-ipwhois.sh${nocolor} - A GeoIP Lookup Script
 
-  ${gdcolorbold}Function:${nocolor} Uses https://ipwhois.is to provide GeoIP lookups (1000/day Free)
+  ${gdcolorbold}Function:${nocolor} Uses https://ipwho.is to provide GeoIP lookups (1000/day Free)
 
   ${gdcolorbold}Usage:${nocolor} geo-ipwhois.sh [${gdcolorbold}-flags${nocolor}] ${italics}ipaddress
   ${gdcolorbold}${bullet}${nocolor} If no IP is given, user's external IP will be used${nocolor}
